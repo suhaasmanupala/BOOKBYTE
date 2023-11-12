@@ -1,0 +1,285 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookByte</title>
+    <link rel="stylesheet" href="index.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="/violet.png" type="image/x-icon">
+
+    <head>
+
+    <body>
+
+        <nav class="navbar">
+            <div class="left">
+                <h1 style=" font-family: 'Cinzel', serif;">BookByte</h1>
+            </div>
+            <div class="right">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkBtn">
+                    <i class="fa fa-bars"></i>
+                </label>
+                <ul class="list">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="/stack.html">STACK</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+            
+        </nav>        
+        <button onclick="myFunction()">Dark mode</button>
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+            </script>
+        <div class="container">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="https://images.pexels.com/photos/636243/pexels-photo-636243.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Los Angeles" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="https://images.pexels.com/photos/3831729/pexels-photo-3831729.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Chicago" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="https://images.pexels.com/photos/6005063/pexels-photo-6005063.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="New york" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="https://cdn.pixabay.com/photo/2018/03/19/18/20/paper-3240768__340.jpg"
+                            alt="Chicago" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="https://cdn.pixabay.com/photo/2017/06/10/16/22/coffee-2390136__340.jpg"
+                            alt="Chicago" style="width:100%;height: 100%;">
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div><br><br>
+        <div class="browse">
+            <h2 style="color: white; background-color:rgb(183, 116, 247);
+        padding-top: 7px;
+        height: 50px;
+        font-size: 40px;
+        text-align: center;;">Browse Genres</h2>
+        </div>
+
+        <br><br>
+        <div class="container2">
+            <div class="latestbooksimg">
+               <a href="/action.html"> <img src="https://images.pexels.com/photos/848573/pexels-photo-848573.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="dune"></a>
+                <a href="/action.html"><h2>ACTION&<br>ADVENTURE</h2></a>
+            </div>
+            <div class="latestbooksimg"><a href="/romance.html"><img
+                    src="https://images.pexels.com/photos/9153526/pexels-photo-9153526.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="ego"></a>
+               <a href="/romance.html"> <h2>ROMANCE</h2></a>
+            </div>
+            <div class="latestbooksimg"> 
+               <a href="/thriller.html"><img src="/thriller pic.jpg" alt="thriller"></a>
+                <a href="/thriller.html"><h2>THRILLER</h2></a>
+            </div>
+            <div class="latestbooksimg"><a href="/horror.html"> <img
+                    src="https://images.pexels.com/photos/1270184/pexels-photo-1270184.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="horror"></a>
+                <a href="/horror.html"><h2>HORROR</h2></a>
+            </div>
+            <div class="latestbooksimg"><a href="/sci-fi.html"><img
+                    src="https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&w=600"
+                    alt="sci-fi"></a>
+                <a href="/sci-fi.html"><h2>SCI-FI</h2></a>
+            </div>
+            <div class="latestbooksimg"><a href="/fiction.html"><img
+                    src="https://cdn.pixabay.com/photo/2019/08/06/22/48/artificial-intelligence-4389372__340.jpg"
+                    alt="fiction"></a>
+                <a href="/fiction.html"><h2>FICTION</h2></a>
+            </div>
+            <div class="latestbooksimg"><a href="/fantasy.html"><img
+                    src="https://cdn.pixabay.com/photo/2019/02/14/07/28/painting-3995999__340.jpg" alt="fantasy"></a>
+                <a href="/fantasy.html"><h2>FANTASY</h2></a>
+            </div>
+            <div class="latestbooksimg"><a href="/historical.html"><img
+                    src="https://cdn.pixabay.com/photo/2016/09/01/13/52/steampunk-1636156__340.png"
+                    alt="historical fiction"></a>
+                <a href="/historical.html"><h2>HISTORICAL FICTION</h2></a>
+            </div>
+            <div class="latestbooksimg"><a href="/coding.html"><img
+                    src="https://images.pexels.com/photos/1089440/pexels-photo-1089440.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="CODING"></a>
+                <a href="/coding.html"><h2>CODING</h2></a>
+            </div>
+            <div class="latestbooksimg">  <a href="/biographies.html"><img
+                    src="https://media.istockphoto.com/id/1004004360/photo/pen-and-text-my-story.jpg?b=1&s=170667a&w=0&k=20&c=dxY0g4sGhhGyOx5Bgfr8j6n9BZiO1Fqqn1-HIIYYu-M="
+                    alt="bio"></a>
+                <a href="/biographies.html"><h2>BIOGRAHIES</h2></a>
+            </div>
+            <div class="latestbooksimg">  <a href="/spirituality.html"><img
+                src="/spiritual.jpg"
+                alt="bio"></a>
+            <a href="/spirituality.html"><h2>SPIRITUALITY</h2></a>
+        </div>
+        </div>
+        <br><br><br>
+        <h2 style="color: white;background-color:rgb(183, 116, 247);
+    padding-top: 7px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;">Editor's Choice</h2>
+        <br>
+        <div class="editorchoice">
+            <div class="books">
+                <a href="/pdfs/ala.pdf"><img src="/editorchoice/almanravi.jpg" alt="1"></a>
+                
+                <h4 > <br> The Almanack of Naval Ravikant</h4>
+            </div>
+            <div class="books">
+                <a href="/pdfs/million.pdf"><img src="/editorchoice/millionairefast.jpg" alt="1"></a>
+                <h4 > <br> The Millionaire Fastlane</h4>
+            </div>
+            <div class="books">
+               <a href="/pdfs.pdf"> <img src="/editorchoice/ego.jpg" alt="1"></a>
+                <h4 > <br> Ego is the Enemy</h4>
+            </div>
+            <div class="books">
+               <a href="/pdfs/itendswithus.pdf"> <img src="/editorchoice/itends.jpg" alt="1"></a>
+                <h4 > <br> It Ends with us</h4>
+            </div>
+            <div class="books">
+                
+                <a href="/pdfs/The Rudest Book Ever.pdf"><img src="/editorchoice/rudestbk.jpg" alt="1"></a>
+                <h4 > <br> The Rudest Book Ever</h4>
+            </div>
+            <div class="books">
+                <a href="/pdfs/hwtowin.pdf"><img src="/editorchoice/winfrnds.jpg" alt="1"></a>
+                <h4 > <br>How to win Friends and <br> influence people</h4>
+            </div>
+            <div class="books">
+                <a href="/pdfs/Snow crash.pdf"><img src="/editorchoice/snowcrash.jpg" alt="1"></a>
+                <h4 > <br> Snow Crash by <br> Neal Stephenson</h4>
+            </div>
+            <div class="books">
+                <img src="/editorchoice/skyward.jpg" alt="1">
+                <h4 > <br>Skyward by <br>
+                     Brandon Sanderson </h4>
+            </div>
+            <div class="books">
+                <img src="/editorchoice/thesecret.jpg" alt="1">
+                <h4 > <br> The Secret</h4>
+            </div>
+            <div class="books">
+                <a href="/pdfs/The Subtle Art of Not Giving a F_ck.pdf"><img src="/editorchoice/subtleart.jpg" alt="1"></a>
+                <h4 > <br> The subtle art of not giving <br> a f*ck</h4>
+            </div>
+            <div class="books">
+                <a href="/pdfs/The Alchemist 1 The Alchemist.pdf"><img src="/editorchoice/alcheemist.jpg" alt="1"></a>
+                <h4 > <br> The Alchemist by <br>Panlo Coelho </h4>
+            </div>
+            <div class="books">
+                <a href="/pdfs/The Monk Who Sold His ferr.pdf"><img src="/editorchoice/ferrari.jpg" alt="1"></a>
+                <h4 > <br> The monk who sold his Ferrari <br>by Robin Sharma</h4>
+            </div>
+            <br><br>
+
+        </div>
+        <h2 style="color: white;background-color: rgb(183, 116, 247);
+    padding-top: 7px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;">Developer Books</h2>
+        <div class="deve">
+            <div class="books2">
+                <a href="/pdfs/Eloquent_JavaScript_small.pdf"><img src="/dev/javasc.jpg" alt="1"></a>
+                
+                <h4 > <br>Eloquent Javascript</h4>
+            </div>
+            <div class="books2">
+                <a href="/pdfs/Learning Web Design _ A Beginner’s Guide to HTM.pdf"><img src="/dev/learwebd.jpg" alt="1"></a>
+                <h4 > <br> Learning Web design</h4>
+            </div>
+            <div class="books2">
+               <a href="/pdfs/Node.js Design Patterns - C.pdf"> <img src="/dev/nodejs.jpg" alt="1"></a>
+                <h4 > <br> Node.js Design Patterns</h4>
+            </div>
+            <div class="books2">
+                <img src="/dev/react.jpg" alt="1">
+                <h4 > <br> Learning React</h4>
+            </div>
+            <div class="books2">
+                <img src="/dev/pyt.jpg" alt="1">
+                <h4 > <br> Python Programming</h4>
+            </div>
+        <br><br><br>
+        
+        <div class="footer-section">
+            <div class="footer-item">
+                <h2>Company</h2>
+                <p><a href=""> About Us</a></p>
+                <p><a href=""> Contact Us</a></p>
+                <p><a href=""> Our Services</a></p>
+                <p><a href=""> Privacy Policy</a></p>
+            </div>
+            <div class="footer-item">
+                <h2>Get Help </h2>
+                <p><a href=""> FAQ</a></p>
+                <p><a href=""> Shipping </a></p>
+                <p><a href=""> Retuns </a></p>
+                <p><a href=""> Payment Options </a></p>
+            </div>
+            
+            <div class="footer-item social">
+                <h2> Follow Us </h2>
+                <ul>
+                   <a href="https://instagram.com/suhaas_lucky?igshid=Mzc0YWU1OWY="> <li> <i class="fa-brands fa-instagram"></i> </li></a>
+                   <a href="https://www.linkedin.com/in/suhaas-manupala-69a5b7257"> <li> <i class="fa-brands fa-linkedin-in"></i> </li></a>
+                    <a href="https://medium.com/@manupala.suhaas"><li><i class="fa-brands fa-medium"></i> </li></a>
+                    <li> <i class="fa-brands fa-github"></i> </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+    </body>
+
+</html>
